@@ -5,7 +5,7 @@
 // Follow me on Codepen
 
 (function(){
-	
+
 	var Memory = {
 
 		init: function(cards){
@@ -108,8 +108,8 @@
 				frag += '<div class="card" data-id="'+ v.id +'"><div class="inside">\
 				<div class="front"><img src="'+ v.img +'"\
 				alt="'+ v.name +'" /></div>\
-				<div class="back"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/codepen-logo.png"\
-				alt="Codepen" /></div></div>\
+				<div class="back"><img src="img/nba.jpg"\
+				alt="NBA" /></div></div>\
 				</div>';
 			});
 			return frag;
@@ -118,43 +118,43 @@
 
 	var cards = [
 		{
-			name: "php",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/php-logo_1.png",
+			name: "Bill Russell",
+			img: "img/billrussell.jpg",
 			id: 1,
 		},
 		{
-			name: "css3",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/css3-logo.png",
+			name: "Wilt Chamberlain",
+			img: "img/wilt.jpg",
 			id: 2
 		},
 		{
-			name: "html5",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/html5-logo.png",
+			name: "Kareem Abdul-Jabbar",
+			img: "img/kareem.jpeg",
 			id: 3
 		},
 		{
-			name: "jquery",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/jquery-logo.png",
+			name: "Julius Erving",
+			img: "img/doc.jpg",
 			id: 4
-		}, 
+		},
 		{
-			name: "javascript",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/js-logo.png",
+			name: "Magic Johnson",
+			img: "img/magic.jpg",
 			id: 5
 		},
 		{
-			name: "node",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/nodejs-logo.png",
+			name: "Larry Bird",
+			img: "img/larry.jpg",
 			id: 6
 		},
 		{
-			name: "photoshop",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/photoshop-logo.png",
+			name: "Michael Jordan",
+			img: "img/jordan.jpeg",
 			id: 7
 		},
 		{
-			name: "python",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/python-logo.png",
+			name: "Hakeem Olajuwon",
+			img: "img/hakeem.jpg",
 			id: 8
 		},
 		{
@@ -178,7 +178,7 @@
 			id: 12
 		},
 	];
-    
+
 	Memory.init(cards);
 
 
