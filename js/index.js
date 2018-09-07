@@ -158,23 +158,23 @@
 			id: 8
 		},
 		{
-			name: "rails",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/rails-logo.png",
+			name: "Shaquille O'Neal",
+			img: "img/shaq.jpg",
 			id: 9
 		},
 		{
-			name: "sass",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/sass-logo.png",
+			name: "Kobe Bryant",
+			img: "img/kobe.jpg",
 			id: 10
 		},
 		{
-			name: "sublime",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/sublime-logo.png",
+			name: "Lebron James",
+			img: "img/lebron.jpg",
 			id: 11
 		},
 		{
-			name: "wordpress",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/wordpress-logo.png",
+			name: "Kevin Durant",
+			img: "img/kd.jpg",
 			id: 12
 		},
 	];
