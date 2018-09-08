@@ -128,55 +128,55 @@
 			id: 2
 		},
 		{
+			name: "Oscar Robertson",
+			img: "img/oscar.jpg",
+			id: 3
+		},
+		{
 			name: "Kareem Abdul-Jabbar",
 			img: "img/kareem.jpeg",
-			id: 3
+			id: 4
 		},
 		{
 			name: "Julius Erving",
 			img: "img/doc.jpg",
-			id: 4
+			id: 5
 		},
 		{
 			name: "Magic Johnson",
 			img: "img/magic.jpg",
-			id: 5
+			id: 6
 		},
 		{
 			name: "Larry Bird",
 			img: "img/larry.jpg",
-			id: 6
+			id: 7
 		},
 		{
 			name: "Michael Jordan",
 			img: "img/jordan.jpeg",
-			id: 7
+			id: 8
 		},
 		{
 			name: "Hakeem Olajuwon",
 			img: "img/hakeem.jpg",
-			id: 8
+			id: 9
 		},
 		{
 			name: "Shaquille O'Neal",
 			img: "img/shaq.jpg",
-			id: 9
+			id: 10
 		},
 		{
 			name: "Kobe Bryant",
 			img: "img/kobe.jpg",
-			id: 10
+			id: 11
 		},
 		{
 			name: "Lebron James",
 			img: "img/lebron.jpg",
-			id: 11
-		},
-		{
-			name: "Kevin Durant",
-			img: "img/kd.jpg",
 			id: 12
-		},
+		}
 	];
 
 	Memory.init(cards);
