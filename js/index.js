@@ -176,6 +176,11 @@
 			name: "Lebron James",
 			img: "img/lebron.jpg",
 			id: 12
+		},
+		{
+			name: "Tim Duncan",
+			img: "img/timmy.jpg",
+			id: 13
 		}
 	];
 
