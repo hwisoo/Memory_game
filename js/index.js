@@ -180,29 +180,34 @@
 			id: 13
 		},
 		{
+			name: "Jason Kidd",
+			img: "img/kidd.png",
+			id: 14
+		},
+		{
 			name: "Allen Iverson",
 			img: "img/ai.jpg",
-			id: 14
+			id: 15
 		},
 		{
 			name: "Kobe Bryant",
 			img: "img/kobe.jpg",
-			id: 15
+			id: 16
 		},
 		{
 			name: "Tim Duncan",
 			img: "img/timmy.jpg",
-			id: 16
+			id: 17
 		},
 		{
 			name: "Lebron James",
 			img: "img/lebron.jpg",
-			id: 17
+			id: 18
 		},
 		{
 			name: "Kevin Durant",
 			img: "img/kd.jpg",
-			id: 18
+			id: 19
 		}
 
 	];
