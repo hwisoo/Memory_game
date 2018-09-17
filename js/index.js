@@ -58,16 +58,20 @@
 		},
 
 		win: function(){
+			var wins = 0;
 			this.paused = true;
 			setTimeout(function(){
 				Memory.showModal();
 				Memory.$game.fadeOut();
-			}, 1000);
+			}, 2000);
+			wins += 1;
+
 		},
 
 		showModal: function(){
 			this.$overlay.show();
 			this.$modal.fadeIn("slow");
+			$("p").html("<b>You won</b>" + wins + "times in a row!");
 		},
 
 		hideModal: function(){
@@ -200,14 +204,19 @@
 			id: 17
 		},
 		{
+			name: "Dirk Nowitzki",
+			img: "img/dirk.jpg",
+			id: 18
+		},
+		{
 			name: "Lebron James",
 			img: "img/lebron.jpg",
-			id: 18
+			id: 19
 		},
 		{
 			name: "Kevin Durant",
 			img: "img/kd.jpg",
-			id: 19
+			id: 20
 		}
 
 	];
