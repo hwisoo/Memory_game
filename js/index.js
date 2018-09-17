@@ -63,15 +63,15 @@
 			setTimeout(function(){
 				Memory.showModal();
 				Memory.$game.fadeOut();
-			}, 2000);
-			wins += 1;
+			}, 1500);
+			wins = wins +1;
 
 		},
 
 		showModal: function(){
 			this.$overlay.show();
 			this.$modal.fadeIn("slow");
-			$("p").html("<b>You won</b>" + wins + "times in a row!");
+			$("p").text("<b>You won</b>" + wins + "times in a row!");
 		},
 
 		hideModal: function(){
