@@ -71,7 +71,7 @@
 		showModal: function(){
 			this.$overlay.show();
 			this.$modal.fadeIn("slow");
-			$("p").text("<b>You won</b>" + wins + "times in a row!");
+			$("p").text(wins);
 		},
 
 		hideModal: function(){

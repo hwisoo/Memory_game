@@ -10,6 +10,12 @@ body {
   background: black;
   min-height: 100%;
   font-family: "Arial", sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
 }
 
 .wrap {
