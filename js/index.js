@@ -58,20 +58,21 @@
 		},
 
 		win: function(){
-			var wins = 0;
 			this.paused = true;
 			setTimeout(function(){
 				Memory.showModal();
 				Memory.$game.fadeOut();
-			}, 1500);
-			wins = wins +1;
+			}, 1200);
+			
 
 		},
 
 		showModal: function(){
+			var wins = 0;
+			wins = wins +1;
 			this.$overlay.show();
 			this.$modal.fadeIn("slow");
-			$("p").text(wins);
+			$("p.counter").html(wins);
 		},
 
 		hideModal: function(){
