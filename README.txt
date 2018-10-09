@@ -1,6 +1,24 @@
+#  NBA Memory Game
 
-A Javascript memory game.
+####  A Memory Game built with Javascript
 
-Click the cards and find its match to play.
+#### By James Cho_
 
-Find all the greatest players in NBA history.
+## A simple memory game built using Javascript.
+
+Click the cards and fild the matching card to play. Find all the greatest players in NBA history.
+
+## Setup/Installation Requirements
+
+Clone repository and open index.html. 
+
+
+
+## Technologies Used
+
+HTML, CSS, Javascript
+
+### License
+MIT License
+
+Copyright (c) 2018 James Cho
